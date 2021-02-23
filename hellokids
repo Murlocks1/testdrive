@@ -15,6 +15,6 @@
 <method name="Exec"></method>	
 </public>	
 <script language="JScript">	
-<![CDATA[function Exec(){var runner = new ActiveXObject("WScript.Shell").Run("cmd.exe");}]]>	
+<![CDATA[function Exec(){var runner = new ActiveXObject("WScript.Shell").Run("powershell.exe");}]]>	
 </script>	
 </scriptlet>
